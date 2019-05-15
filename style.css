@@ -106,11 +106,11 @@ body {
   transform: rotate(-45deg);
 }
 
-.tasks-list-cb:checked ~ .tasks-list-mark {
+.tasks-list-cb:checked ~.tasks-list-mark {
   border-color: #554971;
 }
 
-.tasks-list-cb:checked ~ .tasks-list-mark:before {
+.tasks-list-cb:checked ~.tasks-list-mark:before {
   display: block;
 }
 
@@ -119,7 +119,7 @@ body {
   color: #777;
 }
 
-.tasks-list-cb:checked ~ .tasks-list-desc {
+.tasks-list-cb:checked ~.tasks-list-desc {
   color: #554971;
   text-decoration: line-through;
 }
