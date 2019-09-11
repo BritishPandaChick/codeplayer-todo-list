@@ -1,3 +1,4 @@
+/* Base Styles */
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
@@ -6,6 +7,7 @@ body {
   background: #E7AD99;
 }
 
+/* Checklist Body */
 .tasks {
   margin: 40px auto;
   width: 240px;
@@ -16,6 +18,7 @@ body {
   border: 1px solid #d1d1d1;
 }
 
+/* Tasks Header */
 .tasks-header {
   position: relative;
   line-height: 24px;
@@ -58,6 +61,7 @@ body {
   box-shadow: 0 6px #8c959d, 0 -6px #8c959d;
 }
 
+/* Task List Items */
 .tasks-list-item {
   display: block;
   line-height: 24px;
